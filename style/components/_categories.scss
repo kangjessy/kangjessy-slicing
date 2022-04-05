@@ -1,0 +1,28 @@
+.component-categories {
+  background: #f4f4f4;
+  border-radius: 8px;
+  padding: 30px 30xp 10px 30px;
+  margin-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.25);
+    text-decoration: none;
+  }
+
+  .categories-image {
+    max-width: 100px;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+  }
+
+  .categories-text {
+    font-size: 18px;
+    text-align: center;
+    color: #0c0d36;
+    font-weight: normal;
+    margin-top: 12px;
+    padding-bottom: 10px;
+  }
+}
